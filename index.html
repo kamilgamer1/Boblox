@@ -13,7 +13,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width, Downlink">
   <title>CloudMoon Cloud Gaming</title>
-  <link rel="icon" sizes="192x192" href="./images/favicon.ico">
+  <link rel="icon" sizes="192x192" href="./images/favicon.png">
 
   <meta name="text-scale" content="scale" />
   <link rel="stylesheet" href="./main.css">
@@ -75,11 +75,11 @@
   </style>
   <link href="./start.js" rel="modulepreload">
 		<link href="./C5NH0rSB.js" rel="modulepreload">
-		<link href="/run-site/_app/immutable/chunks/CMXTmahF.js" rel="modulepreload">
-		<link href="/run-site/_app/immutable/entry/app.CzEMc4Fu.js" rel="modulepreload">
-		<link href="/run-site/_app/immutable/chunks/HclGiUj8.js" rel="modulepreload">
-		<link href="/run-site/_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
-		<link href="/run-site/_app/immutable/nodes/0.BsnPIp5g.js" rel="modulepreload">
+		<link href="./CMXTmahF.js" rel="modulepreload">
+		<link href="./app.CzEMc4Fu.js" rel="modulepreload">
+		<link href="./HclGiUj8.js" rel="modulepreload">
+		<link href="./xihTtKlq.js" rel="modulepreload">
+		<link href="./0.BsnPIp5g.js" rel="modulepreload">
 		
 </head>
 <body data-sveltekit-preload-data="hover">
@@ -94,8 +94,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/run-site/_app/immutable/entry/start.DxEZnhOl.js"),
-						import("/run-site/_app/immutable/entry/app.CzEMc4Fu.js")
+						import("./start.DxEZnhOl.js"),
+						import("./app.CzEMc4Fu.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
